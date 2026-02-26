@@ -1,0 +1,8 @@
+harga = float(input("Masukkan harga barang: "))
+
+if harga >= 100000:
+    total = harga * 0.9
+else:
+    total = harga
+
+print("Total pembayaran =", total)
